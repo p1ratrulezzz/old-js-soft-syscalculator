@@ -12,20 +12,20 @@ body {background:black;color:white;}
 <table class="maintable">
 <tr>
 	<td></td>
-	<td>Первое число:</td>
-	<td>Второе число:</td>
-	<td>Ответ:</td>
+	<td>РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ:</td>
+	<td>Р’С‚РѕСЂРѕРµ С‡РёСЃР»Рѕ:</td>
+	<td>РћС‚РІРµС‚:</td>
 	<td></td>
 	
 </tr>
 <tr>
-	<td>Числа:</td>
+	<td>Р§РёСЃР»Р°:</td>
 	<td><input id="operand_1"  size=5 value=0 /></td>
 	<td><input id="operand_2" size=5 value=0 /></td>
 	<td><input id="result" size=5 value=0 /></td>
-	<td><input type="button" id="process_button" value="Решить" /></td>
+	<td><input type="button" id="process_button" value="Р РµС€РёС‚СЊ" /></td>
 	<td>
-		Округлить:
+		РћРєСЂСѓРіР»РёС‚СЊ:
 		<select id="fix">
 			<option name="fix" value="1">1</option>
 			<option name="fix" value="2">2</option>
@@ -47,7 +47,7 @@ body {background:black;color:white;}
 	
 </tr>
 <tr>
-	<td>Системы:</td>
+	<td>РЎРёСЃС‚РµРјС‹:</td>
 	<td>
 		<select id="sTo"><option id="sTo_2" value="2">2</option><option id="sTo_3" value="3">3</option><option id="sTo_4" value="4">4</option><option id="sTo_5" value="5">5</option><option id="sTo_6" value="6">6</option><option id="sTo_7" value="7">7</option><option id="sTo_8" value="8">8</option><option id="sTo_9" value="9">9</option><option id="sTo_10" value="10">10</option><option id="sTo_11" value="11">11</option><option id="sTo_12" value="12">12</option><option id="sTo_13" value="13">13</option><option id="sTo_14" value="14">14</option><option id="sTo_15" value="15">15</option><option id="sTo_16" value="16">16</option><option id="sTo_17" value="17">17</option><option id="sTo_18" value="18">18</option><option id="sTo_19" value="19">19</option><option id="sTo_20" value="20">20</option><option id="sTo_21" value="21">21</option><option id="sTo_22" value="22">22</option><option id="sTo_23" value="23">23</option><option id="sTo_24" value="24">24</option><option id="sTo_25" value="25">25</option><option id="sTo_26" value="26">26</option><option id="sTo_27" value="27">27</option><option id="sTo_28" value="28">28</option><option id="sTo_29" value="29">29</option><option id="sTo_30" value="30">30</option><option id="sTo_31" value="31">31</option><option id="sTo_32" value="32">32</option><option id="sTo_33" value="33">33</option><option id="sTo_34" value="34">34</option></select>
 	</td>
@@ -59,10 +59,10 @@ body {background:black;color:white;}
 	</td>
 	<td>
 		<select id="operator">
-			<option value="+">Сложить</option>
-			<option value="-">Вычесть</option>
-			<option value="*">Умножить</option>
-			<option value="/">Делить</option>
+			<option value="+">РЎР»РѕР¶РёС‚СЊ</option>
+			<option value="-">Р’С‹С‡РµСЃС‚СЊ</option>
+			<option value="*">РЈРјРЅРѕР¶РёС‚СЊ</option>
+			<option value="/">Р”РµР»РёС‚СЊ</option>
 		</select>
 	</td>
 	<td id="hexUp_field" style="visibility:hidden;">
@@ -74,7 +74,7 @@ body {background:black;color:white;}
 </table>
 <script type="text/javascript">
 
-errorMsg = new String("Ошибка");
+errorMsg = new String("РћС€РёР±РєР°");
 
 gi("sTo_10").selected = true;
 gi("sFrom_10").selected = true;
